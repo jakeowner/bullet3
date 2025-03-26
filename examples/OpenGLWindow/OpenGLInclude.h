@@ -25,7 +25,7 @@ subject to the following restrictions:
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
 #else
-#include "glad/gl.h"
+#include "../ThirdPartyLibs/glad/glad/gl.h"
 #endif  //B3_USE_GLFW
 #endif  //BT_NO_GLAD
 #endif  //__OPENGL_INCLUDE_H
